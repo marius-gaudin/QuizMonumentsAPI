@@ -1,6 +1,6 @@
 
 import NodeCache from 'node-cache'
-import * as countryService from '#services/country-service.js'
+import * as countryService from './country-service.js'
 
 const cache = new NodeCache()
 
