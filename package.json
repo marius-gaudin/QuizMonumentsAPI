@@ -32,7 +32,8 @@
     "mongoose": "^6.8.2",
     "node-cache": "^5.1.2",
     "nodemon": "^2.0.20",
-    "pexels": "^1.4.0"
+    "pexels": "^1.4.0",
+    "xml-js": "^1.6.11"
   },
   "imports": {
     "#config/*.js": "./src/config/*.js",

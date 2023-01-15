@@ -9,7 +9,6 @@ export async function search(query)
     try {
         let image = cache.get(query)
         if(image == undefined) {
-            console.log('pas de cache');
             const result = await client.photos.search({query, per_page: 1})
             image = {
                 'photographer': {
@@ -20,9 +19,7 @@ export async function search(query)
                 'alt': result?.photos[0]?.alt
             }
             cache.set(query, image)
-        } else {
-            console.log('utilisation du cache');
-        }
+        } 
         
         return image
     }

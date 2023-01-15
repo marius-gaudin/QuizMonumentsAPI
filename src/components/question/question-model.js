@@ -18,21 +18,28 @@ const questionSchema = new Schema({
         required: true
     },
     userAnswerLatitude: {
-        type: Number
+        type: Number,
+        default: null
     },
     userAnswerLongitude: {
-        type: Number
+        type: Number,
+        default: null
     },
     timeStart: {
-        type: Date
+        type: Date,
+        default: null
     },
     timeEnd: {
-        type: Date
+        type: Date,
+        default: null
     },
     score: {
         type: Number,
-        default: 0
+        default: null
     }
+},
+{
+    versionKey: false
 })
 
 const Question = mongoose.model('Question', questionSchema)

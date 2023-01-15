@@ -1,176 +1,100 @@
 [
-    {
-    "frenchName": "Pyramides de Gizeh",
-    "name": "أهرامات الجيزة",
-    "latitude": 29.979166,
-    "longitude": 31.134165
-    },
-    {
-    "frenchName": "Grande Muraille de Chine",
-    "name": "长城",
-    "latitude": 40.431907,
-    "longitude": 116.570404
-    },
-    {
-    "frenchName": "Taj Mahal",
-    "name": "ताज महल",
-    "latitude": 27.1750,
-    "longitude": 78.0422
-    },
-    {
-    "frenchName": "Temple de Pétra",
-    "name": "كنيسة النصر",
-    "latitude": 30.328600,
-    "longitude": 35.441962
-    },
-    {
-    "frenchName": "Colisée",
-    "name": "Colosseo",
-    "latitude": 41.890169,
-    "longitude": 12.492245
-    },
-    {
-    "frenchName": "Cathédrale Notre-Dame de Paris",
-    "name": "Notre-Dame de Paris",
-    "latitude": 48.853408,
-    "longitude": 2.348800
-    },
-    {
-    "frenchName": "Tour Eiffel",
-    "name": "La Tour Eiffel",
-    "latitude": 48.858222,
-    "longitude": 2.294039
-    },
-    {
-    "frenchName": "Cathédrale de Glasgow",
-    "name": "Glasgow Cathedral",
-    "latitude": 55.8588,
-    "longitude": -4.2590
-    },
-    {
-    "frenchName": "Basilique Saint-Marc",
-    "name": "Basilica di San Marco",
-    "latitude": 45.4346,
-    "longitude": 12.3307
-    },
-    {
-    "frenchName": "Basilique Saint-Jérôme",
-    "name": "Basilica di San Girolamo",
-    "latitude": 44.4195,
-    "longitude": 11.9077
-    },
-    {
-    "frenchName": "Basilique Saint-François",
-    "name": "Basilica di San Francesco",
-    "latitude": 43.7162,
-    "longitude": 12.6758
-    },
-    {
-    "frenchName": "Basilique Saint-Antoine",
-    "name": "Basilica di Sant'Antonio",
-    "latitude": 45.6471,
-    "longitude": 12.2413
-    },
-    {
-    "frenchName": "Basilique Saint-Pierre",
-    "name": "Basilica di San Pietro in Vaticano",
-    "latitude": 41.9029,
-    "longitude": 12.4534
-    },
-    {
-    "frenchName": "Basilique du Sacré-Cœur",
-    "name": "Basilique du Sacré-Cœur",
-    "latitude": 48.8867,
-    "longitude": 2.3431
-    },
-    {
-    "frenchName": "Palais de Versailles",
-    "name": "Château de Versailles",
-    "latitude": 48.804865,
-    "longitude": 2.120355
-    },
-    {
-    "frenchName": "Big Ben",
-    "name": "Big Ben",
-    "latitude": 51.500729,
-    "longitude": -0.124625
-    },
-    {
-    "frenchName": "Tour de Pise",
-    "name": "Torre pendente di Pisa",
-    "latitude": 43.722861,
-    "longitude": 10.396361
-    },
-    {
-    "frenchName": "Acropole",
-    "name": "Ακρόπολη",
-    "latitude": 37.9715,
-    "longitude": 23.7257
-    },
-    {
-    "frenchName": "Sphinx",
-    "name": "أبو الهول",
-    "latitude": 29.9792,
-    "longitude": 31.1342
-    },
-    {
-    "frenchName": "Statue de la Liberté",
-    "name": "Statue of Liberty",
-    "latitude": 40.6892,
-    "longitude": -74.0444
-    },
-    {
-    "frenchName": "Central Park",
-    "name": "Central Park",
-    "latitude": 40.778848,
-    "longitude": -73.968898
-    },
-    {
-    "frenchName": "Burj Khalifa",
-    "name": "برج خليفة",
-    "latitude": 25.197197,
-    "longitude": 55.274371
-    },
-    {
-    "frenchName": "Cathédrale Saint-Basile",
-    "name": "Собор Василия Блаженного",
-    "latitude": 55.751667,
-    "longitude": 37.616944
-    },
-    {
-    "frenchName": "Cathédrale de Saint-Sauveur",
-    "name": "Собор Спаса на Крови",
-    "latitude": 59.9343,
-    "longitude": 30.3351
-    },
-    {
-    "frenchName": "Cathédrale de Notre-Dame-de-Kazan",
-    "name": "Казанский Собор",
-    "latitude": 55.7491,
-    "longitude": 37.6264
-    },
-    {
-    "frenchName": "Basilique du Christ-Sauveur",
-    "name": "Храм Христа Спасителя",
-    "latitude": 55.7333,
-    "longitude": 37.5950
-    },
-    {
-    "frenchName": "Tour de Tokyo",
-    "name": "東京タワー",
-    "latitude": 35.658580,
-    "longitude": 139.745484
-    },
-    {
-    "frenchName": "Tour de Shanghai",
-    "name": "上海中心大厦",
-    "latitude": 31.2350,
-    "longitude": 121.4737
-    },
-    {
-    "frenchName": "Tour de Hong Kong",
-    "name": "香港迪士尼樂園",
-    "latitude": 22.3089,
-    "longitude": 114.0757
-    }
+  { "name": "Arc de Triomphe" },
+  { "name": "Big Ben" },
+  { "name": "Cathédrale Notre-Dame" },
+  { "name": "Colisée" },
+  { "name": "Great Wall of China" },
+  { "name": "Louvre" },
+  { "name": "Machu Picchu" },
+  { "name": "Pyramides de Gizeh" },
+  { "name": "Taj Mahal" },
+  { "name": "Acropole" },
+  { "name": "Alhambra" },
+  { "name": "Angkor Wat" },
+  { "name": "Basilique Saint-Pierre" },
+  { "name": "Château de Versailles" },
+  { "name": "Christ the Redeemer" },
+  { "name": "Forêt de la Dame" },
+  { "name": "Great Sphinx of Giza" },
+  { "name": "Hagia Sophia" },
+  { "name": "Mont-Saint-Michel" },
+  { "name": "Mosquée Bleue" },
+  { "name": "Notre-Dame de Chartres" },
+  { "name": "Palais des Doges" },
+  { "name": "Palais du Potala" },
+  { "name": "Panthéon" },
+  { "name": "Petra" },
+  { "name": "Phi Phi Islands" },
+  { "name": "Place Rouge" },
+  { "name": "Potsdamer Platz" },
+  { "name": "Pueblos Magiques" },
+  { "name": "Pyramides de Teotihuacán" },
+  { "name": "Rock of Gibraltar" },
+  { "name": "Sagrada Família" },
+  { "name": "Sainte-Sophie" },
+  { "name": "Sanctuaire de Delphes" },
+  { "name": "Schloss Neuschwanstein" },
+  { "name": "Statues de l'île de Pâques" },
+  { "name": "Stonehenge" },
+  { "name": "Système de canaux de Venise" },
+  { "name": "Temple de Karnak" },
+  { "name": "Temple de la littérature" },
+  { "name": "Temple du Soleil" },
+  { "name": "Temple du Souvenir" },
+  { "name": "Tour de Londres" },
+  { "name": "Tour de Pise" },
+  { "name": "Tour Eiffel" },
+  { "name": "Tour de St-Jacques" },
+  { "name": "Tétras Lyre" },
+  { "name": "Tombeau de l'Empereur Qin Shi Huang" },
+  { "name": "Torres del Paine" },
+  { "name": "Tour Montparnasse" },
+  { "name": "Tour Saint-Jacques" },
+  { "name": "Uffizi" },
+  { "name": "Vat Phou" },
+  { "name": "Vatican" },
+  { "name": "Verrou de la Porte de Brandebourg" },
+  { "name": "Villa Borghese" },
+  { "name": "Villa Médicis" },
+  { "name": "Wailing Wall" },
+  { "name": "Yarra Valley" },
+  { "name": "Zoo de Berlin" },
+  { "name": "Aiguille du Midi" },
+  { "name": "Altar de la Patria" },
+  { "name": "Anfiteatro Romano" },
+  { "name": "Arc de Constantino" },
+  { "name": "Arc de l'Étoile" },
+  { "name": "Arc de Triomphe" },
+  { "name": "Arengario" },
+  { "name": "Arènes de Nîmes" },
+  { "name": "Arènes de Pérouse" },
+  { "name": "Arènes de Verona" },
+  { "name": "Autel de la Patrie" },
+  { "name": "Bastille" },
+  { "name": "Big Ben" },
+  { "name": "Bran Castle" },
+  { "name": "Buckingham Palace" },
+  { "name": "Catedral de Notre-Dame" },
+  { "name": "Catedral de Santiago de Compostela" },
+  { "name": "Catedral de Santa Maria del Fiore" },
+  { "name": "Catedral de Sevilla" },
+  { "name": "Catedral de Toledo" },
+  { "name": "Catedral de Valencia" },
+  { "name": "Catedral de Valladolid" },
+  { "name": "Catedral de Zaragoza" },
+  { "name": "Cathédrale Notre-Dame" },
+  { "name": "Cathédrale de Chartres" },
+  { "name": "Cathédrale de Reims" },
+  { "name": "Cathédrale de Rouen" },
+  { "name": "Cathédrale de Salisbury" },
+  { "name": "Cathédrale de Wells" },
+  { "name": "Cathédrale de Winchester" },
+  { "name": "Cathédrale de York" },
+  { "name": "Château de Blois" },
+  { "name": "Château de Chambord" },
+  { "name": "Château de Chenonceau" },
+  { "name": "Château de Fontainebleau" },
+  { "name": "Château de Versailles" },
+  { "name": "Cité Interdite" },
+  { "name": "Colonne de la Victoire" }
 ]

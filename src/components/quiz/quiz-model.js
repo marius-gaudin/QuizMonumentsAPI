@@ -7,10 +7,15 @@ const quizSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'User',
         required: true,
+    },
+    finalScore: {
+        type: Number,
+        default: null
     }
 }, 
 {
-    timestamps: true
+    timestamps: true,
+    versionKey: false
 })
 
 const Quiz = mongoose.model('Quiz', quizSchema)
