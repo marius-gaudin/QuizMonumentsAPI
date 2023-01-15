@@ -1,4 +1,4 @@
-import User from '#components/user/user-model.js';
+import User from './user-model.js';
 import Joi from 'joi';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';

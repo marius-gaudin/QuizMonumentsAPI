@@ -1,5 +1,5 @@
 import Router from '@koa/router'
-import * as monumentController from '#components/monument/monument-controller.js'
+import * as monumentController from './monument-controller.js'
 const monuments = new Router()
 
 monuments.get('/', monumentController.getAll)

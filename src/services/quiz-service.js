@@ -1,4 +1,4 @@
-import Question from '#components/question/question-model.js'
+import Question from '../components/question/question-model.js'
 
 export function getRandomNumbers(nbNumber, max) {
     if(typeof nbNumber !== 'number' || typeof max !== 'number') return null

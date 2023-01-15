@@ -1,5 +1,5 @@
 import Router from '@koa/router'
-import * as quizController from '#components/quiz/quiz-controller.js'
+import * as quizController from './quiz-controller.js'
 const quizzes = new Router()
 
 quizzes.get('/', quizController.getAll)

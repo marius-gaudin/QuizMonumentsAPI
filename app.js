@@ -1,9 +1,9 @@
-import '#config/database.js'
+import './src/config/database.js'
 import Koa from 'koa'
 import cors from '@koa/cors'
 import bodyParser from 'koa-bodyparser'
 import respond from 'koa-respond'
-import { API_V1_ROUTER_UNPROTECTED, API_V1_ROUTER_PROTECTED } from '#routes/index.js'
+import { API_V1_ROUTER_UNPROTECTED, API_V1_ROUTER_PROTECTED } from './src/routes/index.js'
 import jwt from 'koa-jwt'
 import KoaLogger from 'koa-logger'
 

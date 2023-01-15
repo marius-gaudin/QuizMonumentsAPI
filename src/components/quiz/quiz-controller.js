@@ -1,9 +1,9 @@
-import Monument from '#components/monument/monument-model.js'
-import Quiz from '#components/quiz/quiz-model.js'
-import Question from '#components/question/question-model.js'
-import * as userService from '#services/user-service.js'
-import * as quizService from '#services/quiz-service.js'
-import * as mapsService from '#services/maps-service.js'
+import Monument from '../monument/monument-model.js'
+import Quiz from './quiz-model.js'
+import Question from '../question/question-model.js'
+import * as userService from '../../services/user-service.js'
+import * as quizService from '../../services/quiz-service.js'
+import * as mapsService from '../../services/maps-service.js'
 import Joi from 'joi'
 
 // Get all user quizzes

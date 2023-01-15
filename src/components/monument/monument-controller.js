@@ -1,5 +1,5 @@
-import Monument from '#components/monument/monument-model.js';
-import * as mapsService from '#services/maps-service.js'
+import Monument from './monument-model.js';
+import * as mapsService from '../../services/maps-service.js'
 
 export async function getAll(ctx) {
     try {
