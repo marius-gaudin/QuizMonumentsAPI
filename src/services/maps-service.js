@@ -6,7 +6,7 @@ const cache = new NodeCache()
 
 const urlApiPlace = 'https://maps.googleapis.com/maps/api/place/'
 
-const urlPlaceByText = 'findplacefromtext/json?fields=place_id%2Cphotos%2Cgeometry%2Cname&inputtype=textquery&input='
+const urlPlaceByText = 'findplacefromtext/json?fields=place_id%2Cphotos%2Cgeometry%2Cname%2Ctypes&inputtype=textquery&input='
 const urlPlacePhoto = 'photo?maxwidth=1500&photo_reference='
 const urlPlaceDetails = 'details/json?fields=address_components&place_id='
 

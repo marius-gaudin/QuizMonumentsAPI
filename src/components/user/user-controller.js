@@ -40,10 +40,7 @@ export async function login(ctx) {
             {pseudo: value.login}
         ]})
 
-        if(user === null || !(await bcrypt.compare(value.password, user.password))) {
-            ctx.status = 401
-            return ctx.body = { message: 'Mot de passe ou identifiant incorrect'}
-        }
+        if(user === null || !(await bcrypt.compare(value.password, user.password))) return ctx.badRequest({ message: 'Mot de passe ou identifiant incorrect'})
         const userInfo = {'_id': user._id, 'email': user.email, 'pseudo': user.pseudo}
         const token = jwt.sign({ data:userInfo }, process.env.JWT_SECRET, { expiresIn: '3h' })
         userInfo.token = token

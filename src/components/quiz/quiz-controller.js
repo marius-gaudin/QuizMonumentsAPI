@@ -62,7 +62,7 @@ export async function getQuestion(ctx) {
         const monument = await mapsService.getPlaceInfos(question.monument.name)
 
         let result = JSON.parse(JSON.stringify(question))
-        if(question.score) {
+        if(question.score !== null) {
             result.monument = monument
             result.distance = quizService.getDistance(question.userAnswerLatitude, question.userAnswerLongitude, monument.latitude, monument.longitude)
             result.totalScore = await quizService.getTotalScore(quiz._id)
@@ -80,7 +80,7 @@ export async function getQuestion(ctx) {
             question.save()
         }
 
-        result.time = quizService.getTime(question.timeStart, dateNow)
+        result.time = quizService.getTime(question.timeStart, question.timeEnd ? question.timeEnd : dateNow)
 
         ctx.ok(result)
     } catch(e) {
