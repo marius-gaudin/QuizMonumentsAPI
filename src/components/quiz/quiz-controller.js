@@ -21,6 +21,7 @@ export async function getAll(ctx) {
 export async function newQuiz(ctx) {
     try {
         const userId = await userService.getCurrentUserIdByToken(ctx.request.header.authorization)
+        if(!(await quizService.canCreateNewQuiz(userId))) return ctx.badRequest(`Limite atteinte pour aujourd'hui`)
         // Si le dernier quiz n'a pas été terminé on le supprime
         const lastQuiz = await Quiz.findOne({user: userId, finalScore: null}).sort({createdAt: 'desc'})
         if(lastQuiz) {

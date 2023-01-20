@@ -1,4 +1,5 @@
 import Question from '../components/question/question-model.js'
+import Quiz from '../components/quiz/quiz-model.js'
 
 export function getRandomNumbers(nbNumber, max) {
     if(typeof nbNumber !== 'number' || typeof max !== 'number') return null
@@ -26,8 +27,8 @@ export function getTime(start, end) {
 export function calculScore(distance) {
     if(typeof distance !== 'number') return null
     const maxPoint = 3000
-    const maxDistance = 2000
-    const minDistance = 2
+    const maxDistance = 1600
+    const minDistance = 1
 
     let score = 0
     if(distance <= minDistance) score += maxPoint
@@ -58,4 +59,15 @@ export async function getTotalScore(idQuiz) {
     const result = await Question.aggregate([{$match: { quiz: idQuiz }}, {$group: {_id: '$quiz', total: {$sum: '$score'}}}])
     if(result.length > 0) return result[0].total
     return null
+}
+
+export async function canCreateNewQuiz(userId) {
+    const nbQuizPerDay = 3
+    const now = new Date(Date.now())
+    const nbQuizToday = await Quiz.count({user: userId, updatedAt: {$gt: new Date(now.getFullYear(), now.getMonth(), now.getDate())}})
+    console.log(nbQuizToday)
+    if(nbQuizToday && nbQuizToday >= nbQuizPerDay) {
+        return false
+    }
+    return true
 }
