@@ -25,6 +25,7 @@ export async function getPlaceInfos(searchText) {
     const longitude = place?.geometry?.location?.lng
     const photoRef = place?.photos[0]?.photo_reference
     const name = place?.name
+    console.log(name)
 
     if(typeof latitude !== 'number' || typeof longitude !== 'number') return null
 
